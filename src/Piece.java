@@ -17,6 +17,10 @@ public class Piece {
         column = ChessUtils.getColumnFromPosition(position);
     }
 
+    public void setPosition(String newPosition){
+
+    }
+
     public String getPosition(){
         return ChessUtils.columnToLetter(column) + ChessUtils.rowToNumber(row);
     }
